@@ -1,0 +1,24 @@
+#H2
+#spring.h2.console.enabled=true
+#spring.h2.console.path=/h2
+
+
+# Datasource
+#spring.datasource.url=jdbc:h2:file:~/test
+#spring.datasource.username=admin
+#spring.datasource.password=admin
+#spring.datasource.driver-class-name=org.h2.Driver
+#
+#app.config.name="8:00:00"
+
+spring:
+  datasource:
+    url: jdbc:h2:file:~/test
+    username: admin
+    password: admin
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2
+
